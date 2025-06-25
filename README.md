@@ -40,10 +40,10 @@ This project provides a predictive model that:
 ```
 znailla_bank_ml/
 ├── data/                  # Raw and input data
-    └── bank-additional-full.csv          
+│   └── bank-additional-full.csv          
 ├── output/                # Predictions and trained model
-    ├── model.joblib
-    └── recommended_clients                      
+│   ├── model.joblib
+│   └── recommended_clients                      
 ├── src/                   # Source code
 │   ├── data_preprocessing.py
 │   ├── modeling.py
